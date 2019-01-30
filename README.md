@@ -1,0 +1,1 @@
+A quick example to illustrate a discrepancy in contrast ratio failures between [Axe](https://github.com/dequelabs/axe-core/) and [Lighthouse](https://github.com/GoogleChrome/lighthous). Axe shows 3 failures, while Lighthouse only shows one.

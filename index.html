@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Axe vs Lighthouse</title>
+    <style>
+      .fails-lighthouse {
+        background:orange;
+        color: red;
+      }
+      .does-not-fail-lighthouse {
+        background:red;
+        color: red;
+      }
+      .also-does-not-fail-lighthouse {
+        background:#ff0000;
+        color: #ff0011;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="fails-lighthouse">This element fails in Lighthouse!</p>
+    <p class="does-not-fail-lighthouse">This element fails in axe, but not Lighthouse!</p>
+    <p class="also-does-not-fail-lighthouse">This element also fails in axe, but not Lighthouse!</p>
+  </body>
+</html>
